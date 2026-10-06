@@ -2,18 +2,18 @@
 
 A playground for learning Rust through small, focused experiments.
 
-## Getting started
+## Experiments
 
-Install stable Rust with [rustup](https://rust-lang.org/tools/install/). Cargo
-manages builds, tests, and package dependencies. No experiment exists yet.
-
-To create the first one from the repository root:
+- [MVC counter](experiments/mvc-counter/README.md): a tiny model/view/controller
+  example with terminal input, borrowed state, error handling, and tests.
 
 ```sh
-mkdir -p experiments
-cargo new experiments/hello-rust
-cargo run --manifest-path experiments/hello-rust/Cargo.toml
+cargo run --manifest-path experiments/mvc-counter/Cargo.toml
 ```
+
+Install stable Rust with [rustup](https://rust-lang.org/tools/install/). Cargo
+manages builds, tests, and package dependencies. Each experiment is its own Cargo
+package; run commands with its manifest path or from its directory.
 
 ## Agent setup
 

@@ -3,8 +3,8 @@
 ## Purpose and current state
 
 This repository is a playground for learning and experimenting with Rust. Keep
-examples small, runnable, and focused on one concept. At setup time it contains
-only documentation and agent skills; there is no Cargo manifest or Rust code yet.
+examples small, runnable, and focused on one concept. The first example is the independent Cargo package
+`experiments/mvc-counter/`, an in-memory terminal counter with MVC-style modules.
 Inspect the current tree before choosing commands or assuming a project layout.
 
 ## Working approach
