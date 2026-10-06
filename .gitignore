@@ -1,0 +1,8 @@
+# Cargo build artifacts, including nested experiment packages.
+**/target/
+
+# macOS metadata and local secrets.
+.DS_Store
+.env
+.env.*
+!.env.example
